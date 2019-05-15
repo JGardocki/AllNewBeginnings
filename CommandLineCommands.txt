@@ -1,0 +1,25 @@
+cd + directory - change directory
+mkdir + directory name - make directory
+
+-ls - list
+-ls -a - list all
+
+touch + file with type  - create new file
+open + file with type - open file
+
+1. git init - initialize git
+2. git add + file name = git status of file
+3. git commit -m + "Message" - commit change
+//Always write in present tense
+
+git status - view staging area
+git log - see all commits
+git add . - add everything in the directory
+git diff + file name - see difference in changes
+git checkout + file - roll back file to last state/checkpoint
+
+
+
+
+
+
