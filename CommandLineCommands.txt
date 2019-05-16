@@ -7,10 +7,18 @@ mkdir + directory name - make directory
 touch + file with type  - create new file
 open + file with type - open file
 
+//Creating local repository
 1. git init - initialize git
 2. git add + file name = git status of file
 3. git commit -m + "Message" - commit change
 //Always write in present tense
+
+//Syncing with remote repository
+1. Create the repository on GitHub - obtain the remote
+2. git remote add origin + URL provided
+3. git push -u origin master
+// origin is the master of the remote and we're pushing it to master, the name of the branch. Master branch is the default branch.
+
 
 git status - view staging area
 git log - see all commits
