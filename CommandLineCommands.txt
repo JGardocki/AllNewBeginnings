@@ -3,6 +3,8 @@ mkdir + directory name - make directory
 
 -ls - list
 -ls -a - list all
+rm -r + file name - remove file
+open + filename + -a + application
 
 touch + file with type  - create new file
 open + file with type - open file
@@ -19,6 +21,9 @@ open + file with type - open file
 3. git push -u origin master
 // origin is the master of the remote and we're pushing it to master, the name of the branch. Master branch is the default branch.
 
+//To remove all from staging area
+git rm --cached -r .
+
 
 git status - view staging area
 git log - see all commits
@@ -27,6 +32,15 @@ git diff + file name - see difference in changes
 git checkout + file - roll back file to last state/checkpoint
 
 
+//gitignore
+//to create hidden file
+1. touch .gitignore
+2. open the file
+3. add each file we don't want uploaded on a new line exactly how it is spelled
+"#" is equal to a comment - "//"
+"*.txt" (or file type) also works
+
+//Can go to gitignore on github.com for a swift template full of file types and extensions I can add to a projects gitingore file. Quite literally, copy and paste the entire list.
 
 
 
